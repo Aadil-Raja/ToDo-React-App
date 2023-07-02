@@ -1,0 +1,34 @@
+.header {
+  background-color: #3167ca;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  border-color: blue;
+  
+ 
+ 
+}
+.moving {
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid #000;
+  }
+  
+  .track {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
